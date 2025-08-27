@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Checkbox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <form>
+        <h1 id="titulo">Formulario de interação</h1>
+
+        <label>Digite o seu nome</label>
+        <input type="text" placeholder="Digite aqui">
+       
+            <br>
+            <br>
+
+        <label>Digite o seu endereço</label>
+        <input type="text" value="Rua e nr">
+       
+            <br>
+            <br>
+
+        <label>Digite o Bairro</label>
+        <input type="text" value="Bairro">
+       
+            <br>
+            <br>
+
+        <label>Digite a Cidade</label>
+        <input type="text" value="Santo André">
+
+            <br>
+            <br>
+
+        <label>Entre com a sua mensagem</label><br>
+        <textarea placeholder="Digite até 500 caracteres"></textarea><br><br>
+
+        <label>Escolha o(s) modelo(s) de trabalho:</label>
+        
+            <br>
+            
+
+        <ul>
+        <li> <input type="checkbox"> Presencial<br> </li>
+        <li><input type="checkbox"> Remoto<br></li> 
+        <li><input type="checkbox" checked> Híbrido<br></li>
+        </ul>
+
+      
+        <label>Escolha o período de trabalho:</label>
+            <br>
+            
+       <ul>
+       <li><input type="radio" name="periodo"> Manhã<br></li> 
+        <li><input type="radio" name="periodo"> Tarde<br></li>
+       <li><input type="radio" name="periodo"> Noite<br></li> 
+        </ul>
+        
+
+        <label>Escolha um Estado:</label><br>
+        <select>
+            <option>Espirito Santo</option>
+            <option>São Paulo</option>
+            <option>Minas Gerais</option>
+            <option>Rio de Janeiro</option>
+        </select><br><br>
+
+        <input type="checkbox"> Aceita os termos de uso do site
+            <br>
+            <br>
+
+        <div class="buttons">
+            <input type="submit" value="Enviar dados">
+            <input type="reset" value="Limpar os campos">
+        </div>
+    </form>
+    
+</body>
+</html>

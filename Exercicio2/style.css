@@ -1,0 +1,14 @@
+body {
+     background: linear-gradient(to bottom right, #57DC7F, #eeeeee, #57DC7F);
+    margin: 1;
+    padding: 0;
+}
+
+#titulo {
+    color: rgb(219, 0, 0);
+}
+
+textarea {
+    width: 40%;
+    height: 150px;
+}
